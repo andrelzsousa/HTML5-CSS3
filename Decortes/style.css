@@ -1,0 +1,73 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body p,
+body li {
+    font-size: 19px;
+}
+
+header {
+    background: linear-gradient(lightblue, lightgrey 70%);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+.caixa {
+    width: 880px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    padding: 2%;
+    width: 9%;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+nav li {
+    display: inline;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: black;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background: url(imagens/bg.jpg);
+    padding: 10px;
+}
+
+.imgfoot {
+    width: 8%;
+    padding: 10px;
+}
+
+footer p {
+    color: aliceblue;
+    font-size: 14px;
+}

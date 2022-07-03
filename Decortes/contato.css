@@ -1,0 +1,79 @@
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+form p,
+form legend {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.contato label {
+    font-size: 18px;
+}
+
+.input-block {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border: 1px blue solid;
+    background-color: rgb(225, 235, 241);
+}
+
+.contato {
+    margin-bottom: 10px;
+    accent-color: darkblue;
+}
+
+.horario,
+.novidades {
+    margin-bottom: 20px;
+    accent-color: darkblue;
+}
+
+fieldset {
+    border: none;
+}
+
+.envio {
+    padding: 10px 25px;
+    width: 35%;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+
+.envio:hover {
+    background-color: darkorange;
+    transform: scale(1.1);
+}
+
+table {
+    margin: 25px 0 40px
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+table th,
+table td {
+    padding: 4px 14px;
+    border: 1px black solid;
+    margin: 0;
+}

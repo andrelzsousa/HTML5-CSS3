@@ -1,0 +1,89 @@
+.banner {
+	width: 100%;
+}
+
+.titulo-principal {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 1em;
+	clear: left;
+}
+
+main {
+	background: linear-gradient(#FEFEFE 10%, #888888);
+}
+
+section {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 3em 0;
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.principal p {
+	margin-bottom: 1em;
+}
+
+.missao {
+	font-size: 20px;
+}
+
+.beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.itens::before {
+	content: "★ ";
+
+}
+
+.itens {
+	font-style: italic;
+	line-height: 1.5;
+}
+
+.imgbene {
+	display: inline-block;
+	width: 60%;
+}
+
+.video {
+	width: 100%;
+	margin: 2em auto 0 auto;
+}
+
+footer {
+	text-align: center;
+	background: url(imagens/bg.jpg);
+	padding: 10px;
+}
+
+.imgfoot {
+	width: 8%;
+	padding: 10px;
+}
+
+footer p {
+	color: aliceblue;
+	font-size: 14px;
+}
+
+
+.mapa p {
+	text-align: center;
+	padding: 0 0 2em;
+}
