@@ -1,0 +1,14 @@
+h1 {
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 150px);
+    border: 1px solid black;
+    transition: 10s;
+
+}
+
+h1:hover {
+    transform: scale(5);
+    /*border: 150px solid black;*/
+
+}
