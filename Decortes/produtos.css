@@ -30,8 +30,8 @@
 }*/
 
 .produtos li:hover {
-	border-color: darkblue;
 	transform: scale(1.1);
+	box-shadow: inset 0 0 8px 2px lightblue;
 }
 
 .produtos li:active {

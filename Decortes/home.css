@@ -8,6 +8,7 @@
 	text-align: center;
 	margin-bottom: 1em;
 	clear: left;
+	text-shadow: 1px 1px lightblue;
 }
 
 main {
@@ -24,6 +25,7 @@ section {
 	width: 120px;
 	float: left;
 	margin: 0 20px 0 0;
+	box-shadow: 5px 5px 13px 0 rgb(97, 96, 96);
 }
 
 .principal p {
@@ -46,6 +48,10 @@ section {
 
 }
 
+.itens:first-child {
+	font-weight: bold;
+}
+
 .itens::before {
 	content: "★ ";
 
@@ -59,11 +65,13 @@ section {
 .imgbene {
 	display: inline-block;
 	width: 60%;
+	box-shadow: 10px 10px 13px 0 rgb(97, 96, 96);
 }
 
 .video {
 	width: 100%;
 	margin: 2em auto 0 auto;
+	box-shadow: 10px 10px 13px 0 rgb(97, 96, 96);
 }
 
 footer {
