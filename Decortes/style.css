@@ -75,3 +75,18 @@ footer p {
     color: aliceblue;
     font-size: 14px;
 }
+
+@media screen and (max-width: 480px) {
+    .caixa {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+}

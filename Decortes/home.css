@@ -95,3 +95,25 @@ footer p {
 	text-align: center;
 	padding: 0 0 2em;
 }
+
+
+@media screen and (max-width: 480px) {
+
+	.principal,
+	.mapa,
+	.beneficios {
+		width: auto;
+		padding: 1%;
+	}
+
+	.lista-beneficios,
+	.imgbene {
+		width: 100%;
+	}
+
+	body p {
+		font-size: 10px;
+	}
+
+
+}

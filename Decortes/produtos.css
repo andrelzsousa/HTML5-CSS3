@@ -53,3 +53,17 @@
 	text-decoration: none;
 	color: black;
 }
+
+@media screen and (max-width: 480px) {
+
+	.produtos {
+		width: auto;
+		padding: 10px;
+	}
+
+	.produtos li {
+		width: 100%;
+		margin: 10px auto;
+		transform: scale(0.9);
+	}
+}
